@@ -1,0 +1,19 @@
+.NewDish {
+    position: absolute;
+    top: 20px;
+    right: 150px;
+}
+
+.NewDish input {
+    font-family: "Poppins", sans-serif;
+    color: #2c3e50;
+    font-size: 18px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #e74c3c;
+    padding: 12px 10px; 
+    transition: border .3s;
+}
+.NewDish input:focus {
+    border-color: #16a085;
+}
